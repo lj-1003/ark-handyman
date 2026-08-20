@@ -1,13 +1,22 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { useLocation } from "react-router";
+import Header from "../components/Header";
+import Gallery from "../components/Gallery";
+import Contact from "../components/Contact";
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Ark Handyman" },
+    { name: "description", content: "Welcome to Ark Handyman" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+
+  return (
+    <div>
+      <Header />
+      <Gallery />
+      <Contact />
+    </div>
+);
 }
