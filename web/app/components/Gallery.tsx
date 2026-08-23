@@ -9,7 +9,7 @@ function Gallery() {
   
   return (
     <div className='m-8 text-center'>
-      <h1 className="text-4xl">Gallery</h1><br />
+      <h1 className="text-4xl">Previous Work</h1><br />
       <div className='grid grid-cols-1 sm:grid-cols-3 gap-x-7 gap-y-7' >
         <img className='rounded-lg max-h-[600px] w-full h-full object-cover' src={shed} alt="shed"></img>
         <img className='rounded-lg max-h-[600px] w-full h-full object-cover' src={kitchen} alt="kitchen"></img>

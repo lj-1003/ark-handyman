@@ -1,5 +1,6 @@
 import { useLocation } from "react-router";
 import Header from "../components/Header";
+import Services from "../components/Services";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
 
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <Services />
       <Gallery />
       <Contact />
     </div>
