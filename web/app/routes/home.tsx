@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Services from "../components/Services";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
 
 export function meta() {
   return [
@@ -18,7 +20,7 @@ export default function Home() {
       <Header />
       <Services />
       <Gallery />
-      <Contact />
+      <Footer />
     </div>
 );
 }

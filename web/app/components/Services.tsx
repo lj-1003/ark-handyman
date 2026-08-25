@@ -13,30 +13,32 @@ function Gallery() {
       <h1 className="text-4xl">Services</h1><br />
       <div className='grid grid-cols-2 justify-items-center sm:grid-cols-3 gap-x-7 gap-y-7' >
         <div>
-          <h2>Plumbing</h2>
+          <p>Plumbing</p>
           <img className='max-h-[100px]' src={plumbing} alt="plumbing"></img>
         </div>
         <div>
-          <h2>HVAC</h2>
+          <p>HVAC</p>
           <img className='max-h-[100px]' src={hvac} alt="hvac"></img>
         </div>
         <div>
-          <h2>Electric</h2>
+          <p>Electric</p>
           <img className='max-h-[100px]' src={electric} alt="electric"></img>
         </div>
         <div>
-          <h2>Carpentry</h2>
+          <p>Carpentry</p>
           <img className='max-h-[100px]' src={wood} alt="carpentry"></img>
         </div>
         <div>
-          <h2>Yard Work</h2>
+          <p>Yard Work</p>
           <img className='max-h-[100px]' src={yard} alt="yard"></img>
         </div>
         <div>
-          <h2>Painting/Drywall</h2>
+          <p>Painting/Drywall</p>
           <img className='max-h-[100px]' src={painting} alt="painting"></img>
         </div>
       </div>
+      <br></br>
+      <p>Service not listed? Call now to discuss your needs!</p>
     </div>
   );
 }
