@@ -1,8 +1,8 @@
-import shed from '../assets/gallery/shed.jpg'
-import kitchen from '../assets/gallery/kitchen.jpg'
-import table from '../assets/gallery/table.jpg'
-import hvac from '../assets/gallery/hvac.jpg'
-import ac from '../assets/gallery/ac.jpg'
+import shed from '../assets/gallery/shed.webp'
+import kitchen from '../assets/gallery/kitchen.webp'
+import table from '../assets/gallery/table.webp'
+import hvac from '../assets/gallery/hvac.webp'
+import ac from '../assets/gallery/ac.webp'
 
 
 function Gallery() {
